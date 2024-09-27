@@ -19,9 +19,17 @@
                     // El índice será el nombre del archivo, el valor será el nombre de la imagen
 
                     // Vamos a pasar con el foreach el listado de elementos de la array asociativa
+                    /* Cada elemento estará en un <td>  y tendrá un <figure> con una imagen enlazada 
+                    por la ruta y un <figcaption> con su nombre descriptivo */
+                    /*Al índice le pondremos de nommbre $ruta y a la descripción le pondremos $nombre*/
                     foreach($imagenes as $ruta => $nombre){
-                        echo '<td><figure><img src="img/'.$ruta.'">
-                        <figcaption>'.$nombre.'</figcaption></figure></td>';
+                        echo    
+                            '<td> 
+                                <figure>
+                                    <img src="img/'.$ruta.'">
+                                    <figcaption>'.$nombre.'</figcaption>
+                                </figure>
+                            </td>';
                     }
                 ?>
             </tr>
