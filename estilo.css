@@ -1,0 +1,25 @@
+html{
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+div  {
+    height: 200px; 
+}
+
+img{
+    height: 200px;  
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+td{
+    border: solid;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
